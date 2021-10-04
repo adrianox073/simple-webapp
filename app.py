@@ -10,9 +10,5 @@ def main():
 def hello():
     return 'I am good, how about you?'
 
-@app.route('/read from database')
-def hello():
-    return 'I am good, how are you?' 
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8081)
